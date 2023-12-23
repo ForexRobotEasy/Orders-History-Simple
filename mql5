@@ -1,0 +1,38 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                   Orders History Simple                          |
+//|                                              https://forexroboteasy.com               |
+//|                                                        Developed by Forex Robot Easy Team  |
+//+------------------------------------------------------------------+
+#property indicator_chart_window
+
+input color BuyLineColor = clrGreen; // color for buy orders line
+input color SellLineColor = clrRed; // color for sell orders line
+input int LineWidth = 2; // line width
+input int LineStyle = STYLE_SOLID; // line style
+
+input color PositiveProfitTextColor = clrGreen; // color for positive profit texts
+input color NegativeProfitTextColor = clrRed; // color for negative profit texts
+
+void OnInit()
+{
+   // Initialize the indicator
+}
+
+void OnCalculate(const int rates_total, const int prev_calculated, const datetime& time[], const double& open[], const double& high[], const double& low[], const double& close[], const long& tick_volume[], const long& volume[], const int& spread[])
+{
+   // Calculate the indicator
+}
+
+void OnTick()
+{
+   // Update the indicator on each tick
+   // Get and process new orders data
+   // Update buy and sell order lines on the chart
+   // Update profit texts color
+}
+
+void OnDeinit(const int reason)
+{
+   // Deinitialize the indicator
+}
